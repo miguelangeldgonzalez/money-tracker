@@ -8,8 +8,11 @@ authors = ["MiguelDG <miguelangel.dgonzalez@gmail.com>"]
 python = "^3.13"
 fastapi = ">=0.135.1,<0.136.0"
 uvicorn = {extras = ["standard"], version = ">=0.41.0,<0.42.0"}
-sqlalchemy = ">=2.0.48,<3.0.0"
+beanie = ">=1.29.0,<2.0.0"
 motor = ">=3.7.1,<4.0.0"
+python-dotenv = "^1.2.2"
+httpx = "^0.28.1"
+python-jose = {extras = ["cryptography"], version = "^3.5.0"}
 
 [tool.poetry.group.dev.dependencies]
 

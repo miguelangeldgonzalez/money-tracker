@@ -1,0 +1,98 @@
+
+.register-last-transaction__submit-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.register-last-transaction__table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #23232b;
+  border-radius: 8px;
+}
+
+.register-last-transaction__th {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.register-last-transaction__td {
+  padding: 0.5rem;
+}
+
+
+.register-last-transaction__error {
+  color: var(--color-error);
+  margin-bottom: 1rem;
+}
+
+.register-last-transaction__form {
+  margin-top: 1.5rem;
+  background: #23232b;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.register-last-transaction__form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.register-last-transaction__label {
+  margin-right: 0.5rem;
+  min-width: 80px;
+}
+
+.register-last-transaction__select {
+  min-width: 160px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #27272a;
+  background: #23232b;
+  color: #f4f4f5;
+}
+
+.register-last-transaction__input {
+  min-width: 220px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #27272a;
+  background: #23232b;
+  color: #f4f4f5;
+}
+
+
+.register-last-transaction__category-error {
+  color: var(--color-error);
+  margin-left: 1rem;
+}
+
+
+.register-last-transaction__submit-error {
+  color: var(--color-error);
+  margin-top: 1rem;
+}
+
+
+.register-last-transaction__submit-success {
+  color: var(--color-success);
+  margin-top: 1rem;
+}
+.register-last-transaction {
+  background: #23232b;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px 0 #00000030;
+  color: #f4f4f5;
+}
+
+.register-last-transaction h2 {
+  margin-bottom: 1rem;
+}
+
+.register-last-transaction__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
